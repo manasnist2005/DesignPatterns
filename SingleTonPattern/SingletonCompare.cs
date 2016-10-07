@@ -22,14 +22,16 @@ namespace SingleTonPattern
         static SingletonCompare scompare = null;
         private SingletonCompare()
         {
-            Console.WriteLine("Singleton Compare Instance created");
+            Console.WriteLine("New SingletonCompare instance created");
         }
         public static SingletonCompare getCompareInstance() //Design Pattern : Singleton Pattern
         {
-            if (scompare == null) //Checks if the instane is created already
+            if (scompare == null) //Checks if the instance is created already
             {
                 scompare = new SingletonCompare();
             }
+            else
+                Console.WriteLine("Already created instace is returned");
             return scompare;
         }
         public bool ComapreString(string s1, string s2)

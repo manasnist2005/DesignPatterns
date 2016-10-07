@@ -10,7 +10,7 @@ namespace SingleTonPattern
     {
         public Compare()
         {
-            Console.WriteLine("Compare Instance created");
+            Console.WriteLine("A new Compare Instance created");
         }
         public bool ComapreString(string s1, string s2)
         {
