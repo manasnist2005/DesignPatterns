@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadeDesignPattern", "Faca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDesignPatterns", "TestDesignPatterns\TestDesignPatterns.csproj", "{316ACE3C-FC10-4227-BE23-EF9A04026645}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityFramework", "UnityFramework\UnityFramework.csproj", "{BDF37582-F0DB-406C-B039-5432C23E7414}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinjectFramework", "NinjectFramework\NinjectFramework.csproj", "{1B624AF9-F14D-4B47-B76C-AD9410CA226D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{316ACE3C-FC10-4227-BE23-EF9A04026645}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{316ACE3C-FC10-4227-BE23-EF9A04026645}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{316ACE3C-FC10-4227-BE23-EF9A04026645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDF37582-F0DB-406C-B039-5432C23E7414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF37582-F0DB-406C-B039-5432C23E7414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF37582-F0DB-406C-B039-5432C23E7414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF37582-F0DB-406C-B039-5432C23E7414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B624AF9-F14D-4B47-B76C-AD9410CA226D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B624AF9-F14D-4B47-B76C-AD9410CA226D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B624AF9-F14D-4B47-B76C-AD9410CA226D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B624AF9-F14D-4B47-B76C-AD9410CA226D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
